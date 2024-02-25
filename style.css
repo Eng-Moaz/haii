@@ -1,0 +1,68 @@
+*{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+div{
+    background-color: #35504C;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    width: 100wh;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 23px;
+}
+#div-1{
+    margin-left: 83px;
+    margin-right: 80px;
+}
+#div-2{
+    margin-left: 390px;
+}
+.first-button{
+    background-color: #35504C;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+    align-self: fle;
+}
+.first-button:hover{
+    color: #D69F34;
+}
+.second-button:hover{
+    background-color: #c28204;
+}
+.third-button:hover{
+    background-color: #293d3a;
+}
+.second-button{
+    background-color: #D69F34;
+    color: white;
+    width: 125px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.third-button{
+    background-color: #35504C;
+    border:2px solid #D69F34;
+    color: white;
+    width: 125px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+button{
+    font-size: 17px;
+    width: auto;
+    height: 32px;
+}
+img{
+    width: auto;
+    height: 80px;
+}
